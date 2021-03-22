@@ -32,8 +32,8 @@ $fp = fopen("test.csv", 'w');
 
 fputcsv($fp, [
     "index", "active", "name", "ruleset", "protocol",
-    "source-type", "source-address", "source-port" . "source-network", "source-address-group", "source-port-group",
-    "target-type", "target-address", "target-port" . "target-network", "target-address-group", "target-port-group",
+    "source-type", "source-address", "source-port" , "source-network", "source-address-group", "source-port-group",
+    "target-type", "target-address", "target-port" , "target-network", "target-address-group", "target-port-group",
     "action"
 ]);
 
